@@ -1,3 +1,5 @@
+""""Reference: https://github.com/thunlp/FewRel"""
+
 import os
 import sklearn.metrics
 import numpy as np
