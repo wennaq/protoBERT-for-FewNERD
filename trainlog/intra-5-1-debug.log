@@ -1,0 +1,31 @@
+5-way-1-shot Few-Shot NER
+model: proto
+encoder: bert
+max_length: 100
+batch_size: 4
+use proto
+model-save-path: checkpoint/proto-bert-train-intra.txt-val-intra.txt-5-1.pth.tar
+Start training...
+Use bert optim!
+support tokens size is torch.Size([27, 100])
+support_emb size is torch.Size([27, 100, 768]) 
+support_mask size is torch.Size([27, 100]) 
+curs_pos is: 0 
+cur size is: 5 
+emb size: torch.Size([5, 100, 768])
+mask size: torch.Size([5, 100])
+curs_pos is: 5 
+cur size is: 6 
+emb size: torch.Size([6, 100, 768])
+mask size: torch.Size([6, 100])
+curs_pos is: 11 
+cur size is: 8 
+emb size: torch.Size([8, 100, 768])
+mask size: torch.Size([8, 100])
+curs_pos is: 19 
+cur size is: 8 
+emb size: torch.Size([8, 100, 768])
+mask size: torch.Size([8, 100])
+unequal size!! 
+Q.size() is torch.Size([1, 100, 768]) 
+q_mask.size() is torch.Size([8, 100]) 

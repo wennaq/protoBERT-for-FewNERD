@@ -1,0 +1,131 @@
+5-way-1-shot Few-Shot NER
+model: proto
+encoder: bert
+max_length: 100
+batch_size: 4
+use proto
+model-save-path: checkpoint/proto-bert-train-inter.txt-val-inter.txt-5-1.pth.tar
+Start training...
+Use bert optim!
+step:   20 | loss: 112.830003, accuracy: 83.40% | [ENTITY] precision: 0.0450, recall: 0.0500, f1: 0.0437
+Use val dataset
+[EVAL] step:  100 | accuracy: 70.43% | [ENTITY] precision: 0.0913, recall: 0.2698, f1: 0.1358
+Best checkpoint
+step:   40 | loss: 11.700249, accuracy: 83.94% | [ENTITY] precision: 0.0590, recall: 0.1268, f1: 0.0797
+Use val dataset
+[EVAL] step:  100 | accuracy: 76.80% | [ENTITY] precision: 0.1239, recall: 0.3358, f1: 0.1805
+Best checkpoint
+step:   60 | loss: 6.609349, accuracy: 81.21% | [ENTITY] precision: 0.0472, recall: 0.1228, f1: 0.0678
+Use val dataset
+[EVAL] step:  100 | accuracy: 79.98% | [ENTITY] precision: 0.1386, recall: 0.3285, f1: 0.1947
+Best checkpoint
+step:   80 | loss: 3.933984, accuracy: 89.79% | [ENTITY] precision: 0.1595, recall: 0.2539, f1: 0.1940
+Use val dataset
+[EVAL] step:  100 | accuracy: 83.85% | [ENTITY] precision: 0.2027, recall: 0.4150, f1: 0.2715
+Best checkpoint
+step:  100 | loss: 4.896244, accuracy: 87.03% | [ENTITY] precision: 0.1775, recall: 0.3146, f1: 0.2257
+Use val dataset
+[EVAL] step:  100 | accuracy: 82.26% | [ENTITY] precision: 0.1797, recall: 0.4034, f1: 0.2483
+step:  120 | loss: 2.575916, accuracy: 90.66% | [ENTITY] precision: 0.1852, recall: 0.2884, f1: 0.2240
+Use val dataset
+[EVAL] step:  100 | accuracy: 83.28% | [ENTITY] precision: 0.2103, recall: 0.4136, f1: 0.2781
+Best checkpoint
+step:  140 | loss: 3.632922, accuracy: 88.89% | [ENTITY] precision: 0.1694, recall: 0.2574, f1: 0.2030
+Use val dataset
+[EVAL] step:  100 | accuracy: 82.98% | [ENTITY] precision: 0.1857, recall: 0.4269, f1: 0.2579
+step:  160 | loss: 3.125981, accuracy: 90.45% | [ENTITY] precision: 0.2100, recall: 0.3293, f1: 0.2556
+Use val dataset
+[EVAL] step:  100 | accuracy: 80.76% | [ENTITY] precision: 0.1644, recall: 0.4065, f1: 0.2334
+step:  180 | loss: 3.082739, accuracy: 89.18% | [ENTITY] precision: 0.1640, recall: 0.2996, f1: 0.2113
+Use val dataset
+[EVAL] step:  100 | accuracy: 79.21% | [ENTITY] precision: 0.1380, recall: 0.3631, f1: 0.1997
+step:  200 | loss: 1.762187, accuracy: 91.54% | [ENTITY] precision: 0.2034, recall: 0.3255, f1: 0.2494
+Use val dataset
+[EVAL] step:  100 | accuracy: 81.64% | [ENTITY] precision: 0.1769, recall: 0.3982, f1: 0.2446
+step:  220 | loss: 2.102929, accuracy: 89.44% | [ENTITY] precision: 0.1769, recall: 0.2810, f1: 0.2164
+Use val dataset
+[EVAL] step:  100 | accuracy: 83.48% | [ENTITY] precision: 0.2275, recall: 0.4744, f1: 0.3071
+Best checkpoint
+step:  240 | loss: 1.784892, accuracy: 89.55% | [ENTITY] precision: 0.1896, recall: 0.3154, f1: 0.2334
+Use val dataset
+[EVAL] step:  100 | accuracy: 82.27% | [ENTITY] precision: 0.1892, recall: 0.4101, f1: 0.2585
+step:  260 | loss: 2.424609, accuracy: 90.67% | [ENTITY] precision: 0.1924, recall: 0.2456, f1: 0.2133
+Use val dataset
+[EVAL] step:  100 | accuracy: 82.05% | [ENTITY] precision: 0.1647, recall: 0.3631, f1: 0.2261
+step:  280 | loss: 2.066421, accuracy: 89.82% | [ENTITY] precision: 0.2038, recall: 0.3169, f1: 0.2452
+Use val dataset
+[EVAL] step:  100 | accuracy: 83.11% | [ENTITY] precision: 0.2084, recall: 0.4524, f1: 0.2837
+step:  300 | loss: 2.721441, accuracy: 88.55% | [ENTITY] precision: 0.2000, recall: 0.2845, f1: 0.2334
+Use val dataset
+[EVAL] step:  100 | accuracy: 80.10% | [ENTITY] precision: 0.1712, recall: 0.3711, f1: 0.2339
+step:  320 | loss: 1.468540, accuracy: 91.43% | [ENTITY] precision: 0.2911, recall: 0.3991, f1: 0.3348
+Use val dataset
+[EVAL] step:  100 | accuracy: 81.43% | [ENTITY] precision: 0.2079, recall: 0.4236, f1: 0.2779
+step:  340 | loss: 2.474288, accuracy: 86.51% | [ENTITY] precision: 0.1417, recall: 0.2468, f1: 0.1786
+Use val dataset
+[EVAL] step:  100 | accuracy: 81.72% | [ENTITY] precision: 0.1896, recall: 0.4203, f1: 0.2606
+step:  360 | loss: 1.902301, accuracy: 88.09% | [ENTITY] precision: 0.1610, recall: 0.2412, f1: 0.1880
+Use val dataset
+[EVAL] step:  100 | accuracy: 81.48% | [ENTITY] precision: 0.1890, recall: 0.4173, f1: 0.2599
+step:  380 | loss: 1.718782, accuracy: 89.56% | [ENTITY] precision: 0.2371, recall: 0.3602, f1: 0.2852
+Use val dataset
+[EVAL] step:  100 | accuracy: 82.81% | [ENTITY] precision: 0.2063, recall: 0.4622, f1: 0.2838
+step:  400 | loss: 1.408303, accuracy: 90.71% | [ENTITY] precision: 0.2193, recall: 0.3570, f1: 0.2708
+Use val dataset
+[EVAL] step:  100 | accuracy: 84.07% | [ENTITY] precision: 0.2139, recall: 0.4395, f1: 0.2867
+step:  420 | loss: 2.066487, accuracy: 89.93% | [ENTITY] precision: 0.2219, recall: 0.3307, f1: 0.2647
+Use val dataset
+[EVAL] step:  100 | accuracy: 84.35% | [ENTITY] precision: 0.2328, recall: 0.4520, f1: 0.3063
+step:  440 | loss: 1.939437, accuracy: 89.02% | [ENTITY] precision: 0.2002, recall: 0.3168, f1: 0.2445
+Use val dataset
+[EVAL] step:  100 | accuracy: 83.46% | [ENTITY] precision: 0.2098, recall: 0.4489, f1: 0.2851
+step:  460 | loss: 1.815509, accuracy: 88.01% | [ENTITY] precision: 0.1494, recall: 0.2547, f1: 0.1862
+Use val dataset
+[EVAL] step:  100 | accuracy: 82.94% | [ENTITY] precision: 0.1837, recall: 0.4179, f1: 0.2542
+step:  480 | loss: 2.519948, accuracy: 86.61% | [ENTITY] precision: 0.1401, recall: 0.1870, f1: 0.1595
+Use val dataset
+[EVAL] step:  100 | accuracy: 82.68% | [ENTITY] precision: 0.2145, recall: 0.4728, f1: 0.2941
+step:  500 | loss: 1.712772, accuracy: 89.68% | [ENTITY] precision: 0.2021, recall: 0.2692, f1: 0.2286
+Use val dataset
+[EVAL] step:  100 | accuracy: 81.51% | [ENTITY] precision: 0.1815, recall: 0.4103, f1: 0.2508
+step:  520 | loss: 1.874840, accuracy: 87.05% | [ENTITY] precision: 0.1334, recall: 0.2288, f1: 0.1680
+Use val dataset
+[EVAL] step:  100 | accuracy: 82.65% | [ENTITY] precision: 0.1872, recall: 0.4170, f1: 0.2581
+step:  540 | loss: 1.924794, accuracy: 88.77% | [ENTITY] precision: 0.1720, recall: 0.2868, f1: 0.2136
+Use val dataset
+[EVAL] step:  100 | accuracy: 83.08% | [ENTITY] precision: 0.2110, recall: 0.4768, f1: 0.2918
+step:  560 | loss: 1.526248, accuracy: 88.39% | [ENTITY] precision: 0.1426, recall: 0.2288, f1: 0.1751
+Use val dataset
+[EVAL] step:  100 | accuracy: 81.96% | [ENTITY] precision: 0.1993, recall: 0.4437, f1: 0.2735
+step:  580 | loss: 2.289350, accuracy: 85.40% | [ENTITY] precision: 0.1451, recall: 0.1734, f1: 0.1552
+Use val dataset
+[EVAL] step:  100 | accuracy: 80.61% | [ENTITY] precision: 0.1774, recall: 0.4091, f1: 0.2471
+step:  600 | loss: 1.929327, accuracy: 84.66% | [ENTITY] precision: 0.1382, recall: 0.2521, f1: 0.1781
+Use val dataset
+[EVAL] step:  100 | accuracy: 81.92% | [ENTITY] precision: 0.2055, recall: 0.4687, f1: 0.2846
+
+####################
+
+Finish training proto-bert-train-inter.txt-val-inter.txt-5-1
+
+Use test dataset
+Successfully loaded checkpoint 'checkpoint/proto-bert-train-inter.txt-val-inter.txt-5-1.pth.tar'
+[EVAL] step:  500 | accuracy: 85.79% | [ENTITY] precision: 0.2407, recall: 0.4643, f1: 0.3161
+
+Use test dataset
+Successfully loaded checkpoint 'checkpoint/proto-bert-train-inter.txt-val-inter.txt-5-1.pth.tar'
+[EVAL] step:  500 | accuracy: 85.64% | [ENTITY] precision: 0.2493, recall: 0.4774, f1: 0.3263
+
+Use test dataset
+Successfully loaded checkpoint 'checkpoint/proto-bert-train-inter.txt-val-inter.txt-5-1.pth.tar'
+[EVAL] step:  500 | accuracy: 86.31% | [ENTITY] precision: 0.2516, recall: 0.4657, f1: 0.3253
+
+Use test dataset
+Successfully loaded checkpoint 'checkpoint/proto-bert-train-inter.txt-val-inter.txt-5-1.pth.tar'
+[EVAL] step:  500 | accuracy: 85.93% | [ENTITY] precision: 0.2414, recall: 0.4600, f1: 0.3157
+
+Use test dataset
+Successfully loaded checkpoint 'checkpoint/proto-bert-train-inter.txt-val-inter.txt-5-1.pth.tar'
+[EVAL] step:  500 | accuracy: 86.38% | [ENTITY] precision: 0.2395, recall: 0.4562, f1: 0.3132
+RESULT: precision: 0.2445, recall: 0.4647, f1:0.3193
+ERROR ANALYSIS: fp: 0.0975, fn: 0.0104, within:0.0547, outer: 0.1070
